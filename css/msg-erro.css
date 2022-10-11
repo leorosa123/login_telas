@@ -1,0 +1,45 @@
+
+.login-cadas{
+    height: 145%;
+}
+
+
+input{
+    color: white;
+    opacity: 90%;
+}
+
+
+.red-cd{
+    padding: 1px;
+    width: 420px;
+    text-align: center;
+    line-height: 3px;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: rgba(250, 128, 114, .3);
+    color: whitesmoke;
+  
+}
+
+.red-cd p:hover{
+    opacity: 50%;
+    transition: 3s;
+}
+
+#green-cd{
+    padding: 1px;
+    width: 420px;
+    text-align: center;
+    margin-left: 30px;
+    line-height: 5px;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: rgba(50, 250, 50, .3);
+    color: whitesmoke;
+}
+
+
+

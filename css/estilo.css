@@ -1,0 +1,171 @@
+body{
+    background-color: #1A1E25;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; /* overflow:hidden impede a barra de rolagem lateral */
+}
+
+
+
+
+.area-login{
+    display: flex;
+    height: 100vh; /* a altura 100vh pegou toda a altura da tel */
+    justify-content: right; /* alinhamos o container area-login ao centro do display */
+    align-items: center; /* alinhamos os itens do container ao seu centro */
+}
+
+.area-login-cadas{
+    display: flex;
+    height: 70vh; /* a altura 100vh pegou toda a altura da tel */
+    justify-content: center; /* alinhamos o container area-login ao centro do display */
+    align-items: center; /* alinhamos os itens do container ao seu centro */   
+}
+
+
+
+#img-php{
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+
+.login{
+    background-color: #141518;
+    margin-right: 50px;
+    height: 65vh;
+    width: 70vh;
+    padding: 25px;
+    border-radius: 2%;
+    text-align: center;
+
+}
+
+form{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+
+    border: none;
+    outline: none;
+    border-radius: 3px;
+
+    height: 45px;
+    font-size:12px;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: #242A34;
+
+    padding-left: 12px;
+    
+    
+}
+
+input::placeholder{
+    color: #9EA5B3;
+}
+
+
+#btn-enviar{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #506EFF;
+    border-radius: 3px;
+    color: rgba(245, 245, 245, 0.994);
+    height: 35px;
+    width: 62vh;
+    cursor: pointer;
+}
+
+#btn-enviar:hover{
+    background-color: #506dff46;
+    color: rgba(245, 245, 245, 0.479);
+    transition: 2s;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    opacity: 90%;
+    font-size: 12px;
+}
+
+
+a{
+    color: #1f3294;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #5974f8;
+    transition: 3s;
+}
+
+img{
+    color: aliceblue;
+    width: 120px;
+    height: 130px;
+}
+
+.animation{
+    margin-right: 40vh;
+}
+
+#img-animation{
+    padding-top: 90px;
+    align-items: center;
+    width: 70vh;
+    height: 70vh;
+}
+
+#title-home{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title-home h3{
+    font-size: 28px;
+    color: rgba(245, 245, 245, 0.884);
+    line-height: 2px;
+
+}
+#title-home p{
+    line-height: 3px;
+    margin-left: 5px;
+    color: #5974f8;
+    font-size: 11px;
+}
+
+
+#title-home p:hover{
+    color: rgba(245, 245, 245, 0.884);
+    transition: 2s;
+    opacity: 90%;
+}
+
+
+#home-neweco{
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
